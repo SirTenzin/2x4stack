@@ -59,8 +59,8 @@ function App() {
 					onIdentifyUser={() => console.log(currentConvexUser)}
 					isAuthenticated={isAuthenticated}
 					isLoading={isLoading}
-					onLogin={() => login({ redirectURL: "http://localhost:3000/" })}
-					onRegister={() => register({ redirectURL: "http://localhost:3000/" })}
+					onLogin={() => login({ redirectURL: import.meta.env.VITE_KINDE_REDIRECT_URL })}
+					onRegister={() => register({ redirectURL: import.meta.env.VITE_KINDE_REDIRECT_URL })}
 				/>
 
 				<UserWelcome 
