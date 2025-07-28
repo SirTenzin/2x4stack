@@ -1,0 +1,23 @@
+{
+  "name": "@2x4/backend",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "convex": "^1.25.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "dev": "convex dev",
+    "check-types": "tsc --noEmit",
+    "deploy": "convex deploy"
+  },
+  "dependencies": {
+    "@convex-dev/action-cache": "^0.2.10",
+    "autumn-js": "^0.0.115",
+    "jose": "^6.0.12"
+  }
+}
