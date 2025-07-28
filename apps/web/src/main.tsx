@@ -67,7 +67,7 @@ export function createRouter() {
 					domain={import.meta.env.VITE_KINDE_DOMAIN as string}
 					clientId={import.meta.env.VITE_KINDE_CLIENT_ID as string}
 					redirectUri={
-						import.meta.env.VITE_KINDE_REDIRECT_URI as string
+						import.meta.env.VITE_KINDE_REDIRECT_URL as string
 					}
 					audience="convex"
 				>
