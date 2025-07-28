@@ -29,9 +29,9 @@ Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
 ### Prerequisites
 
-- [Bun](https://bun.sh/) (recommended package manager)
-- Node.js >= 18
+- [Bun](https://bun.sh/) (recommended package manager and runtime)
 - [Convex](https://convex.dev/) account for backend services
+- [Autumn](https://useautumn.com) account for billing engine
 
 ### Development
 
